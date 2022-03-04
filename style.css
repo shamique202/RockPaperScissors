@@ -1,0 +1,31 @@
+body{
+  text-align: center;
+  padding:16px;
+  background-color: #F9EBEA;
+}
+h2{
+  color: #E0BB1B;
+}
+h1{
+  color: #F62763;
+}
+button{
+  background-color: #056273;
+  color: #E0BB1B;
+}
+id{
+  color: #F1C40F;
+}
+#choices{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
+  grid-gap:23px;
+  justify-items:center;
+  margin-top:90px;
+}
+
+.choice-btn{
+width:70%;
+  font-size: 1.5em;
+    padding:50px;
+}
